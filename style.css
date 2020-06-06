@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+.navbar {
+    background-color: #B71C1C
+    !important;
+    
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+.fa-shopping-cart, .fa-user-circle{
+    font-size: 30px;
+}
+.fa-motorcycle, .fa-headphones, .fa-thumbs-up{
+    font-size: 50px;
+    color: #B71C1C ;
+    padding-right: 10px;
+}
+.card1, .card2, .card3{
+    display: flex;
+    width: 400px;
+    height: 70px;
+    background-color: white;
+    box-shadow: 10px 5px 10px gray ;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 10px;
+    
+}
+.maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.newArrivals{
+    margin-top: 50px;
+}
+.card{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    background-color: #B71C1C;
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #B71C1C;
+}
+
+.foater{
+    background-color:#B71C1C ;
+    color: white;
+    text-align: center;
+}
+.wel{
+    color: black;
+}
+.about{
+    color: white;
+}
+.form{
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    
+}
+.lasticon{
+    display: flex;
+}
+
+
+@media screen and (max-width: 800px) {
+    .card1, .card2, .card3{
+      width: 100%;
+    }
+    .card{
+        width: 100%;
+    }
+  }
